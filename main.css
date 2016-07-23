@@ -1,0 +1,46 @@
+body {
+  font-family: 'Lora', serif;
+  background-color: #FB6964;
+}
+.quote-square {
+  max-width: 500px;
+  min-height: 20px;
+/*  background-color: #fff;
+  color: #FB6964;*/
+  border-radius: 5px;
+  margin-top: 30px;
+  padding: 45px 60px 20px 60px;
+  font-size: 25px;
+}
+#start-quote {
+  font-size: 35px;
+}
+#quote {
+  font-family: 'Lora', serif;
+}
+.small {
+  font-family: 'Lora', serif;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+.btn {
+  font-size: 15px;
+  background-color: #FB6964;
+  color: #fff;
+  padding: 5px 10px;
+  margin: none;
+}
+.tiny {
+  color: #fff;
+  font-size: 15px;
+  margin-top: 15px;
+}
+.white-bg {
+  background-color: #fff;
+  color: #FB6964;
+}
+.color-bg {
+  background-color: ##FB6964;
+  color: #fff;
+}
