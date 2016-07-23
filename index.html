@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<lang ="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Random Quote Machine</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+		<link href="main.css" rel="stylesheet" type="text/css">
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="quote-square container white-bg">
+				<i class="fa fa-quote-left text-center" id="start-quote"><span id="quote"></span></i>
+				<div class="row">
+					<div class="col-xs-6 col-md-6" id="media-buttons">
+<!--						<button  id="dbutton"> Dynamic Button </button>
+						<input id="msg" type="text" name="fname" value="Denvycom Rocks!!">
+						<br/>-->
+						<div id="twtbox"></div>
+						<script>
+						window.twttr = (function(d, s, id) {
+							var t, js, fjs = d.getElementsByTagName(s)[0];
+							if (d.getElementById(id)) return;
+							js = d.createElement(s);
+							js.id = id;
+							js.src = "https://platform.twitter.com/widgets.js";
+							fjs.parentNode.insertBefore(js, fjs);
+							return window.twttr || (t = {
+								_e: [],
+								ready: function(f) {
+									t._e.push(f)
+								}
+							});
+						}(document, "script", "twitter-wjs"));
+						</script>
+						<!--<span id="tweet-container">
+							<a class="twitter-share-button" href="http://twitter.com/share" data-url="https://codepen.io/kestrelmccaigs/full/PzQNmp" data-text="REPLACEME">Tweet</a>
+							<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+						</span>-->
+
+						<!--        <a id="tweet-container"><i></i></a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>-->
+					</div>
+					<div class="col-xs-6 col-md-6 text-right">
+						<button class="color-bg btn" id="new-quote">New Quote</button>
+					</div>
+				</div>
+			</div>
+			<div class="text-center tiny">
+				<p>by kestrelmccaigs</p>
+			</div>
+		</div>
+		<script src="javascript.js"></script>
+	</body>
+</html>
